@@ -1,0 +1,146 @@
+.faq-container {
+    max-width: 850px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+
+  }
+  
+  .faq-container .assurance-faq {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: navy;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+
+}
+  
+  .faq-container .assurance-faq::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #ff8016;
+    position: relative;
+    margin: 10px 0 0;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .faq-container .assurance-faq::before {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 105px;
+    top: 63%;
+  }
+  
+  .faq-container .assurance-faq  span {
+    color: #FF8016;
+  }
+
+  .faq-list {
+    margin-top: 25px;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-question {
+    padding: 15px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  .faq-question:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .toggle-icon {
+    font-size: 23px;
+    color: #ff7f00;
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    padding: 15px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    font-weight: 600;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .faq-container {
+      padding: 15px;
+    }
+  
+    .faq-container .assurance-faq {
+      font-size: 22px;
+    }
+  
+    .faq-question {
+      font-size: 16px;
+    }
+  
+    .faq-answer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .faq-container {
+      padding: 10px;
+    }
+  
+    .faq-container .assurance-faq {
+      font-size: 20px;
+    }
+  
+    .faq-question {
+      font-size: 14px;
+      padding: 12px;
+    }
+  
+    .faq-answer {
+      font-size: 13px;
+      padding: 12px;
+    }
+  }
+  

@@ -1,0 +1,60 @@
+.terms-page {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff5e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+  }
+  
+  .terms-heading {
+    color: #b56a00;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .terms-paragraph {
+    margin-bottom: 15px;
+    color:#333;
+    font-size: 1.35rem;
+    font-weight: bold;
+  }
+  
+  .terms-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color:#6c757d;
+    font-size: 1.3rem;
+  }
+  
+  .terms-list-item {
+    margin-bottom: 10px;
+  }
+  
+  .terms-page-icon {
+    font-size: 50px;
+    color: #b56a00;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .terms-icon-heading {
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .terms-page {
+      padding: 15px;
+    }
+  
+    .terms-heading {
+      font-size: 24px;
+    }
+  
+    .terms-page-icon {
+      font-size: 40px;
+    }
+  }
+  

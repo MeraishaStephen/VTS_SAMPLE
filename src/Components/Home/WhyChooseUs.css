@@ -1,0 +1,137 @@
+
+.vts-difference {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.container-difference {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.container-difference h2 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: navy;
+  margin-bottom: 40px;
+}
+.container-difference h2 span{
+  color:#FF8016;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px;
+  justify-items: center;
+}
+
+.feature-difference {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #fff2e6;
+  border-top: 5px solid #ff8533;
+  border-radius: 15px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  width: 200px; 
+  height: 200px;
+}
+
+.feature-difference:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.feature-difference img {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 15px;
+  animation: bounce 3s ease-out infinite;  
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.feature-difference p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #6c757d;
+  font-weight: bold;
+  margin: 0;
+  text-align: center; 
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .features {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 768px) {
+  .features {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  
+.container-difference h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 30px;
+  color: navy;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+  .feature-difference img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .feature-difference p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .features {
+    grid-template-columns: 1fr; 
+  }
+
+  
+.container-difference h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 30px;
+  color: navy;
+  margin-bottom: 40px;
+  font-family: 'Arial', sans-serif;
+}
+  .feature-difference img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .feature-difference p {
+    font-size: 1rem;
+  }
+}

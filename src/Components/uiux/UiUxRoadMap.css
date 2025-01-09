@@ -1,0 +1,60 @@
+.uiux-roadmap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.uiux-roadmap-container h1 {
+    font-size: 2.1rem;
+    color: navy;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.uiux-roadmap-container h1 span {
+    color: #ff8016;
+}
+
+.uiux-roadmap-img {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 5px solid #ff8016;
+    padding:20px;
+}
+
+.uiux-roadmap-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .uiux-roadmap-container h1 {
+        font-size: 1.5rem;
+    }
+
+    .uiux-roadmap-img {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .uiux-roadmap-container h1 {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .uiux-roadmap-img {
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+}

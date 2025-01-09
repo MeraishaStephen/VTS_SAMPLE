@@ -1,0 +1,237 @@
+/* Base Styles */
+.about-us {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.container-abt {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.container-abt h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+}
+
+.container-abt h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #ff8016;
+  position: relative;
+  margin: 10px 0 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.container-abt h2::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 105px;
+  top: 63%;
+}
+
+.container-abt h2 span {
+  color: #FF8016;
+}
+
+/* Flexbox for About Us Content */
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}
+
+/* Image Styling */
+.about-us-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-us-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 100px;
+  animation: fadeInSlideUp 3s ease-out infinite; 
+}
+
+/* About Us Text Styling */
+.about-us-text {
+  text-align: center;
+}
+
+.about-us-text h2 {
+  font-size: 2rem;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.about-us-text h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: navy;
+  margin-bottom: 20px;
+}
+
+.about-us-text .span-wrapper {
+  text-align: center;
+}
+
+.about-us-text span {
+  color: #FF8016;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.about-us-text p {
+  font-size: 1.3rem;
+  color: #6c757d;
+  line-height: 1.6;
+}
+.about-us-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top:100px;
+  animation: fadeInSlideUp 3s ease-out infinite; 
+}
+
+
+/* Media Queries for Responsiveness */
+
+/* For Small Devices (Phones) */
+@media (max-width: 480px) {
+  .container-abt h2 {
+    font-size: 1.8rem;
+  }
+
+  .container-abt h2::after {
+    width: 60px;
+  }
+
+  .about-us-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .about-us-text {
+    text-align: start;
+    padding: 0;
+  }
+
+  .about-us-text h3 {
+    font-size: 1.6rem;
+  }
+
+  .about-us-text span {
+    font-size: 1.5rem;
+  }
+
+  .about-us-text p {
+    font-size: 1rem;
+  }
+
+  .about-us-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top:0px;
+    animation: fadeInSlideUp 3s ease-out infinite; 
+  }
+}
+
+/* For Medium Devices (Tablets) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container-abt h2 {
+    font-size: 2rem;
+  }
+
+  .about-us-content {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .about-us-text {
+    text-align: start;
+    padding: 0;
+  }
+  
+  .about-us-text h3 {
+    font-size: 1.8rem;
+  }
+
+  .about-us-text span {
+    font-size: 1.7rem;
+  }
+
+  .about-us-text p {
+    font-size: 1.1rem;
+  }
+  .about-us-image img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 10px;
+    margin-top:0px;
+    animation: fadeInSlideUp 3s ease-out infinite; 
+  }
+}
+
+/* For Large Devices (Desktops) */
+@media (min-width: 769px) {
+  .about-us-content {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .about-us-text {
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .about-us-text h3 {
+    font-size: 2rem;
+  }
+
+  .about-us-text span {
+    font-size: 2rem;
+  }
+
+  .about-us-text p {
+    font-size: 1.3rem;
+  }
+
+  .container-abt h2 {
+    font-size: 2.5rem;
+  }
+}

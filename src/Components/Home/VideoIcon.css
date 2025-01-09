@@ -1,0 +1,29 @@
+.video-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #f7dcc2;
+    color: #fff;
+    font-size: 2rem;
+    padding: 15px;
+    border-radius: 50%;
+    border:3px solid #ff8016;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    animation: bounce 2s infinite;
+    transition: transform 0.3s ease;
+  }
+  
+  .video-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
