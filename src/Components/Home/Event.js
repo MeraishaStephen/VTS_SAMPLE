@@ -18,7 +18,7 @@ const images = [
   { src: img1, label: "Our Play Learn Science Founder Mr. Arumugam" },
   { src: img2, label: "Our Beloved Staff Birthday Celebration" },
   { src: img3, label: "Workshop on Java Full Stack Development" },
-  { src: img4, label: "New Joiny Welcome Git" },
+  { src: img4, label: "New Joinee Welcome Kit" },
   { src: img5, label: "Final Year College Student Internship" },
   { src: img6, label: "UI/UX Designer Offer Letter" },
   { src: img7, label: "Software Developer Offer Letter" },

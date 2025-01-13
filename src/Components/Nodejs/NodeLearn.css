@@ -1,0 +1,108 @@
+.back-node-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .node-title {
+    font-size: 2.5rem;
+    color: rgb(17, 2, 53);  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding-bottom: 10px;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+  }
+  .node-title::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #FF6347; 
+    margin: 8px auto;
+    border-radius: 2px;
+  }
+  
+  .node-description {
+    font-size: 1.2rem;
+    color: #222831;
+    font-weight: 550;
+    margin-bottom: 2rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .node-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .node-card {
+    background: linear-gradient(135deg, #ffa41b, #ff5722);
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .node-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .node-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    animation: bounce 1.5s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-15px);
+    }
+    60% {
+      transform: translateY(-8px);
+    }
+  }
+  
+  .node-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .node-card-content {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .node-card p strong {
+    color: rgb(17, 2, 53);
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .node-title {
+      font-size: 2rem;
+    }
+  
+    .node-description {
+      font-size: 1rem;
+    }
+  
+    .node-card {
+      padding: 1rem;
+    }
+  }
+  

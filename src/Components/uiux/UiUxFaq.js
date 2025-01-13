@@ -17,7 +17,7 @@ const UiUxFaq = () => {
     },
     {
       question:
-        "Is there any Placement Fees collected Additionally apart from Training Fees to Provide Job Offer?",
+        "Any Placement Fees collected Additionally apart from Training Fees to Provide Job Offer?",
       answer:
         "No, the Placement is completely free of cost for those who successfully complete the Training & Internship (with Stipend). The fees paid are only for IT Training and not for Placement.",
     },
@@ -26,6 +26,12 @@ const UiUxFaq = () => {
         "What is the Eligibility to Join the 100% Placement Assurance Training Programs?",
       answer:
         "Career Gap candidates are eligible for this Program. Any Degree Candidates (No Arrears) below the age of 35 are eligible. Candidates must have a Laptop & Stable Internet Connection.",
+    },
+    {
+      question:
+        "How to Join the Placement Assurance Program?",
+      answer:
+        "Kindly reach out to our Customer Support team at +91 8438164827. The Customer Support team will assist you on the documents required to Join the Program. A Preliminary Test may get conducted to assess your Skillset. (Depends on your skills) Once the assessment gets over, your shared documents would be forwarded to the Background Verification team. The Verification team will call you to verify the identity and fact check also they do a Background check on your Profile before allocating the seat of Placement Assurance Program. Post Successful completion of Verification you will get a Welcome Email from our VETRI COMPANIES Onboarding team then you can make your First instalment of your Training Fees to Join the Placement Assurance Program. The Classes will get Started within two days after you make your First Instalment payment made. There is no waiting Period with us. Once the payment made within 2 days the classes will get started as per your available slots. A Complementary Welcome Kit (VETRI Companies BackBag, Writing Kit, VTS ID Card & Some Goodies) from VETRI COMPANIES will be mailed to your Communication Address if you choose for Online Training & Work From Home (Only for Tamilnadu Candidates). Offline Candidates can collect the Welcome Kit Instantly at our VTS Head Office. All the New Joiners will get the official email address before the Training gets started and the same will be communicated by our Onboarding Team over WhatsApp/Mobile. The Practical Tasks & Projects will be shared via Official email address only. The Trainings will be conducted via Microsoft Teams and the recordings would be shared by EOD (End of the Day).",
     },
     {
       question:
@@ -60,7 +66,7 @@ const UiUxFaq = () => {
     },
     {
       question:
-        "Will an IT Training Certificate be given Post Completion of IT Training?",
+        "IT Training Certificate will be given Post Completion of IT Training?",
       answer:
         "Yes, a Physical & Soft Copy of Certificate with Online Login & QR Code Verification will be provided. The certificate is ISO 9001:2015 certified and can be downloaded anytime.",
     },
@@ -80,9 +86,55 @@ const UiUxFaq = () => {
         "Yes, projects will be allocated by the Project Manager, and candidates must complete them within the allocated timeline.",
     },
     {
-      question: "Will an Internship Certificate be provided Post Completion?",
+      question: "Internship Certificate will be provided Post Completion?",
       answer:
         "Yes, an Internship Certificate will be provided upon successful completion. It will include details of all projects completed during the internship.",
+    },
+    {
+      question: "Internship Completion is Mandatory for Job Offer from VETRI IT SYSTEMS ?",
+      answer:
+        "Yes, Internship Completion is Mandatory for IT JOB Offer Process from VETRI IT SYSTEMS PRIVATE LIMITED.",
+    },
+    {
+      question: "Any Background Verification will be Taken Place Before Providing the Job Offer from VETRI IT SYSTEMS PRIVATE LIMITED ?",
+      answer:
+        "Yes, Definitely. A Background verification will be performed before Providing the IT Job Offer from VETRI IT SYSTEMS PRIVATE LIMITED.",
+    },
+    {
+      question: "What is the role will be given by VETRI IT SYSTEMS after the successful completion of VTS Training & VIS Internship?",
+      answer:
+        "All Successful IT Trainees will be tagged with either Junior Developer or Junior Designer roles at VETRI IT SYSTEMS PRIVATE LIMITED.",
+    },
+    {
+      question: "How many months of placement support would be provided?",
+      answer:
+        "Placement Training Program is free of cost and will be given for 20 to 25 days (2 hours per day). Placement support will be provided with lifetime validity along with access to the WhatsApp Community Channel.",
+    },
+    {
+      question: "Any bond/agreement associated with the VETRI IT SYSTEMS Job offer?",
+      answer:
+        "There is no bond associated with the VETRI IT SYSTEMS job offer.",
+    },
+    {
+      question: "Any PF/UAN created for the VETRI IT SYSTEMS employees?",
+      answer:
+        "Yes, all the confirmed employees will receive PF and ESI benefits, and the UAN will be tagged against their employment.",
+    },
+    {
+      question: "Does the candidate take 3 months of training alone?",
+      answer:
+        "Yes, it’s the candidate’s choice. If the candidate doesn’t want to continue the internship and job offer from VETRI IT SYSTEMS PRIVATE LIMITED, he/she will get the Training Completion Certificate along with the Placement Assistance Program free of cost.",
+    },
+    {
+      question:
+        "Does the candidate leave after completing the 3 months of training and 3 months of internship?",
+      answer:
+        "Yes, it’s the candidate’s choice. If the candidate doesn’t want to take the job offer from VETRI IT SYSTEMS PRIVATE LIMITED, he/she will get the Training Completion Certificate along with the Internship Certificate. The candidate can use the free Placement Training Program to get a job from other organizations.",
+    },
+    {
+      question: "What is the the office working timings?",
+      answer:
+        "You can call us between 10.00 AM to 07.00 PM (Monday to Saturday - excluding public holidays). Our office number is - 8438164827.",
     },
   ];
 

@@ -1,0 +1,171 @@
+#backjav-learn {
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: #f8f9fa; */
+    background: linear-gradient(to bottom, #eef5ff, #dbe9f5);
+    min-height: 100vh;
+    margin-top:35px;
+  }
+  
+  #backjav-learn h1 {
+    font-size: 2.5rem;
+    color: rgb(17, 2, 53);
+    font-weight: 700;
+    position: relative;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center; 
+  }
+  #backjav-learn h1:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #FF6347;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  .main-p {
+    font-size: 1.3rem;
+    color:black;
+    margin-bottom: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+  }
+  
+  .back-java-learn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card-grid-backjav-learn {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    padding: 0 15px;
+    width: 100%;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1500px; 
+  }
+  
+  .bj-card {
+    width: 100%;
+    background: linear-gradient(45deg, rgba(255, 87, 34, 0.1), rgba(0, 51, 102, 0.1));
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+    transition: all 0.4s ease;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 350px;
+    max-width: 330px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .bj-card:hover {
+    transform: scale(1.05) rotateY(40deg); 
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(145deg, #3498db, #8e44ad); 
+    color: #fff;
+  }
+  
+  .bj-card:hover .icon-backjav-learn {
+    color: #fff;
+    transform: translateY(-10px); 
+  }
+  
+    .bj-card[data-index="0"] .icon-backjav-learn { color: #f89820; } 
+    .bj-card[data-index="1"] .icon-backjav-learn { color: #6F4F28; }
+    .bjcard[data-index="2"] .icon-backjav-learn { color: #28a745; }
+    .bj-card[data-index="3"] .icon-backjav-learn { color: #ff4500; } 
+    .bj-card[data-index="4"] .icon-backjav-learn { color: #6a5acd; }
+    .bj-card[data-index="5"] .icon-backjav-learn { color: #ffc107; }
+  
+    .bj-card .icon-backjav-learn {
+      color: var(--icon-color);
+      font-size: 3rem;
+      margin-bottom: 20px;
+      animation: icon-bounce 1s infinite
+  }
+  @keyframes icon-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+  }
+  .bj-card strong{
+    color:rgba(17,2,53);
+    font-size:1.1rem;
+  }
+  
+  .bj-card p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+    transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .bj-card:hover p {
+    color: #fff; 
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.1); 
+  }
+  
+  .bj-card:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    animation: glowing 1.5s ease-in-out infinite; 
+  }
+  
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px #fff, 0 0 10px #3498db, 0 0 15px #3498db, 0 0 20px #3498db;
+    }
+    50% {
+      box-shadow: 0 0 10px #fff, 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #3498db;
+    }
+    100% {
+      box-shadow: 0 0 5px #fff, 0 0 10px #3498db, 0 0 15px #3498db, 0 0 20px #3498db;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #backjav-learn {
+      font-size: 2rem;
+    }
+  
+    .card-grid-backjav-learn {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  
+    .bj-card {
+      min-height: 300px; 
+    }
+  }
+  

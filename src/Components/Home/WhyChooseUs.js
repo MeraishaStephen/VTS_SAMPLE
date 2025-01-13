@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
   return (
     <section className="vts-difference">
       <div className="container-difference">
-        <h2>How <span>VTS</span> Is Different From <span>Other</span> Training Institutes???</h2>
+        <h2>How <span>VTS</span> Is Different From <span>Other</span> Training Institutions???</h2>
         <div className="features">
           <div className="feature-difference">
             <img src={img1} alt="100% Guaranteed Placement" />

@@ -19,7 +19,7 @@ const About = () => {
   <p>
     VTS is the No.1 Software Training Institute in Tamilnadu – Based
     out of Tenkasi & Tirunelveli providing 100% placement in our own
-    IT Company <b style={{color:'#FF8016'}}>Vetri IT Systems</b> to the graduated students from IT
+    IT Startup <b style={{color:'#FF8016'}}>Vetri IT Systems</b> to the graduated students from IT
     and Non-IT streams.
   </p>
   <p>

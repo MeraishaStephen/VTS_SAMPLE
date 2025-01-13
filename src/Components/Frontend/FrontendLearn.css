@@ -1,0 +1,124 @@
+#frontend-learn {
+    background-color: #f4f7f6;
+    padding: 50px 0;
+  }
+  
+  .frontend-learn-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .f-section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:navy;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .f-section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #FF6347;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  .f-content-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .f-content-item {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    border-left: 3px solid #ff6f61; 
+  }
+  
+  .f-content-item:hover {
+    border: 3px solid navy;
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .f-content-item:hover .f-icon{
+    color: navy;
+  }
+  .f-icon {
+    font-size: 3rem;
+    color: #ff6f61; 
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+    animation: pulse 1.5s infinite; 
+  }
+  
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+  }
+  
+  .f-h3, .f-p {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  .f-h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .f-p {
+    font-size: 1rem;
+    color: #666;
+    font-weight:600;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .f-section-title {
+        font-size: 2rem;
+    }
+  
+    .f-content-item {
+        padding: 20px;
+    }
+  
+    .f-h3 {
+        font-size: 1.25rem;
+    }
+  
+    .f-p {
+        font-size: 0.9rem;
+    }
+  
+    .f-content-wrapper {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  

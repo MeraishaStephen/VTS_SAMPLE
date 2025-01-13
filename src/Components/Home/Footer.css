@@ -98,6 +98,11 @@
   font-size: 1.3rem;
   color: #fff;
 }
+.contact-list li span{
+  color:#FF8016;
+  margin:0 5px;
+  font-size: 20px;
+}
 
 .contact-list .icon {
   margin-right: 10px;

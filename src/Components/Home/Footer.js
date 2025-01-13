@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
           {/* Policy Links */}
-          <div className="footer-policy">
+          {/* <div className="footer-policy">
           <h3>Policy</h3>
           <ul>
             <li><Link to="/refund-policy">Refund and Returns Policy</Link></li>
@@ -39,7 +39,7 @@ const Footer = () => {
             <li><Link to="/privacy-policy">Privacy Policy</Link></li>
             <li><Link to="/shipping-policy">Shipping and Delivery Policy</Link></li>
           </ul>
-        </div>
+        </div> */}
       
 
         {/* Contact Details */}
@@ -47,7 +47,7 @@ const Footer = () => {
           <h3>Contact Details</h3>
           <ul className="contact-list">
             <li>
-              <FontAwesomeIcon icon={faPhone} className="icon" /> 8438164827
+              <FontAwesomeIcon icon={faPhone} className="icon" /> 8438164827 <span> / </span> 8438781327
             </li>
             <li>
               <FontAwesomeIcon icon={faEnvelope} className="icon" /> joinvts@vetriit.com

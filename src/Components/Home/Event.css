@@ -8,11 +8,39 @@
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.event-carousel-title {
+.event-carousel-wrapper .event-carousel-title {
   font-size: 2.5rem;
   color: navy;
-  margin-bottom: 20px;
+  margin: 0;
+  display: inline-block;
+  position: relative;
 }
+
+
+.event-carousel-wrapper .event-carousel-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: #ff8016;
+  position: relative;
+  margin: 10px 0 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.event-carousel-wrapper .event-carousel-title::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 105px;
+  top: 63%;
+}
+
 
 .event-carousel-title span {
   color: #ff8016;
@@ -92,17 +120,22 @@
   background-color: #007bff;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .event-carousel-card {
-    flex: 1 1 calc(50% - 20px); /* 2 cards per row on tablets */
+    flex: 1 1 calc(50% - 20px); 
     max-width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 480px) {
   .event-carousel-card {
-    flex: 1 1 100%; /* 1 card per row on small screens */
+    flex: 1 1 100%; 
     max-width: 100%;
+  }
+  .event-carousel-card img{
+    height:80px;
+  }
+  .event-card-overlay{
+    font-size: 10px;
   }
 }

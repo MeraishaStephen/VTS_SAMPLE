@@ -3,19 +3,19 @@ import './AbtCarousel.css';
 import img1 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.31 PM (1).jpeg';
 import img2 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.31 PM.jpeg';
 import img3 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.38 PM.jpeg';
-import img4 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.32 PM (2).jpeg';
-import img5 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.32 PM.jpeg';
+import img4 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.39 PM (2).jpeg';
+import img5 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.39 PM.jpeg';
 import img6 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.33 PM.jpeg';
 import img7 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.37 PM (1).jpeg';
-import img8 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.40 PM (2).jpeg';
+import img8 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.39 PM (1).jpeg';
 import img9 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.37 PM (3).jpeg';
-import img10 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.40 PM.jpeg';
+import img10 from '../images/vts-banner/WhatsApp Image 2025-01-07 at 12.06.38 PM (1).jpeg';
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10];
 
 function AbtCarousel() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const itemsPerRow = 3; // Number of images per row
+    const itemsPerRow = 3; 
 
     const totalSlides = images.length;
 

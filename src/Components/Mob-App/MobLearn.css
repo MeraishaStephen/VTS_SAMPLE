@@ -1,0 +1,109 @@
+.mob-app-learn-container {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    border-radius: 10px;
+  }
+  
+  .mob-app-learn-title {
+    font-size: 2.5rem;
+    color:rgb(17,2,53);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .mob-app-learn-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #FF6347;
+    margin: 10px auto;
+    border-radius: 2px;
+  }
+  
+  .mob-app-learn-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .mob-app-learn-card {
+    background: linear-gradient(135deg, #ffffff, #d3d3d3);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .mob-app-learn-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  }
+
+  .mob-app-learn-icon {
+    font-size: 2rem;
+    margin-right: 10px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .mob-app-learn-card:hover .mob-app-learn-icon {
+    transform: rotate(360deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .mob-app-learn-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mob-app-learn-card-title {
+    font-size: 1.5rem;
+    color: rgb(17, 2, 53);
+    font-weight: 700;
+    transition: transform 0.3s ease;
+  }
+  
+  .mob-app-learn-card:hover .mob-app-learn-card-title {
+    animation: bounce 0.5s ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  
+  
+  .mob-app-learn-card-description {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .mob-app-learn-title {
+      font-size: 2rem;
+    }
+    
+    .mob-app-learn-cards-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  }
+  

@@ -18,6 +18,7 @@
   min-width: 280px;
   border:3px solid #FF8016;
   padding:20px;
+  border-radius: 15px;
 }
 
 .contact-left h2 {
@@ -33,6 +34,7 @@
   font-size: 1.1rem;
   margin: 15px 0 30px;
   color: black;
+  font-weight: bold;
 }
 
 .contact-info {
@@ -58,15 +60,28 @@
 }
 
 .contact-item .details h4 {
-  font-size: 1.2rem;
+  size: 1.2rem;
   margin: 0 0 5px;
   color: rgb(170 170 170 / var(--tw-text-opacity, 1));
 }
 
 .contact-item .details p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin: 0;
   color: rgb(56 57 62 / var(--tw-text-opacity, 1));
+  font-weight:bold;
+}
+
+.contact-item .details .call-details {
+  font-size: 1.29rem;
+  margin: 0;
+  color: rgb(56 57 62 / var(--tw-text-opacity, 1));
+  font-weight:bold;
+}
+
+.contact-item .details .call-details span {
+  font-size: 1.29rem;
+  color: #ff8016;
   font-weight:bold;
 }
 .item-border {
@@ -97,6 +112,8 @@
   font-size: 1rem;
   color: black;
   margin-bottom: 15px; 
+  font-weight: bold;
+
 }
 
 .form-group {
@@ -126,7 +143,7 @@
   box-sizing: border-box;
   font-weight: bold;
   background-color: #f9f9f9;
-  color: rgb(170 170 170 / var(--tw-text-opacity, 1));
+  color: black;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 

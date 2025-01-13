@@ -12,7 +12,7 @@ import vetriItOffer from "../../videos/vetri-it-offer.mp4";
 import mahesh from "../../videos/mahesh.mp4";
 // import mockInterview from "../../videos/mock-interview.mp4";
 
-import vt from '../../videos/vetri-tech.mp4';
+import vts from '../../videos/vetri-tech.mp4';
 
 
 const videos = [
@@ -25,7 +25,7 @@ const videos = [
   { name: "React State Management", file: meraisha },
   { name: "Vetri Offer Letter", file: vetriItOffer },
   { name: "Technical Doubt", file: mahesh },
-  {name:"vt" , file:vt}
+  {name:"VTS" , file:vts}
 //   { name: "Mock Interview", file: mockInterview },
 ];
 

@@ -1,0 +1,103 @@
+.backpy-learn-container {
+    padding: 2rem;
+    background: linear-gradient(135deg, #ffffff, #d3d3d3);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.backpy-learn-title {
+    font-size: 2.5rem;
+    color: rgb(17, 2, 53);
+    font-weight: 700;
+    position: relative;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.backpy-learn-title::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #FF6347;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+
+.backpy-learn-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.backpy-learn-card {
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.backpy-learn-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.backpy-learn-card-header {
+    background:rgb(17,2,53);
+    color: #fff;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backpy-learn-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+.backpy-learn-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.backpy-learn-card-body {
+    padding: 1.5rem;
+    text-align: left;
+}
+
+.backpy-learn-card-body p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.backpy-learn-card-body strong {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .backpy-learn-cards {
+        grid-template-columns: 1fr;
+    }
+}
